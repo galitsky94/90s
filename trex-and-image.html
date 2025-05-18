@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-Rex and Steam Image</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: sans-serif;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .trex-container {
+      flex: 1;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .image-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    /* T-Rex and animation styles */
+    .trex {
+      width: 120px;
+      height: 140px;
+      position: relative;
+      transform-origin: center bottom;
+      animation: trexBounce 0.8s infinite alternate ease-in-out;
+    }
+
+    .head, .body, .arm, .leg, .tail {
+      position: absolute;
+      background-color: #535353;
+    }
+
+    .head {
+      width: 50px;
+      height: 35px;
+      top: 0;
+      left: 40px;
+      border-radius: 50% 70% 30% 30%;
+      transform: rotate(-5deg);
+    }
+
+    .eye {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background-color: white;
+      border-radius: 50%;
+      top: 10px;
+      left: 15px;
+    }
+
+    .mouth {
+      position: absolute;
+      width: 30px;
+      height: 15px;
+      background-color: transparent;
+      border-bottom: 4px solid #535353;
+      top: 20px;
+      left: 20px;
+      border-radius: 0 0 50% 50%;
+    }
+
+    .teeth {
+      position: absolute;
+      width: 3px;
+      height: 5px;
+      background-color: white;
+      top: 20px;
+      left: 30px;
+      box-shadow: 5px 0 0 white, 10px 0 0 white;
+    }
+
+    .body {
+      width: 70px;
+      height: 50px;
+      top: 35px;
+      left: 25px;
+      border-radius: 40% 30% 40% 30%;
+    }
+
+    .arm {
+      width: 20px;
+      height: 7px;
+      top: 45px;
+      left: 15px;
+      border-radius: 10px;
+      transform-origin: right center;
+      animation: armWave 0.4s infinite alternate;
+    }
+
+    .leg {
+      width: 12px;
+      height: 45px;
+      border-radius: 5px;
+      top: 85px;
+    }
+
+    .leg.left {
+      left: 30px;
+      animation: legMove 0.4s infinite alternate;
+    }
+
+    .leg.right {
+      left: 70px;
+      animation: legMove 0.4s infinite alternate-reverse;
+    }
+
+    .tail {
+      width: 60px;
+      height: 12px;
+      top: 45px;
+      left: -20px;
+      border-radius: 5px 0 0 5px;
+      transform: rotate(-20deg);
+      transform-origin: right center;
+      animation: tailWag 1s infinite alternate;
+    }
+
+    /* Ground and environment */
+    .ground {
+      position: absolute;
+      width: 100%;
+      height: 5px;
+      background-color: #535353;
+      bottom: 20%;
+      animation: groundMove 2s infinite linear;
+    }
+
+    @keyframes armWave {
+      0% {
+        transform: rotate(-30deg);
+      }
+      100% {
+        transform: rotate(10deg);
+      }
+    }
+
+    @keyframes legMove {
+      0% {
+        transform: translateY(0) rotate(10deg);
+      }
+      100% {
+        transform: translateY(-15px) rotate(-10deg);
+      }
+    }
+
+    @keyframes tailWag {
+      0% {
+        transform: rotate(-25deg);
+      }
+      100% {
+        transform: rotate(-15deg);
+      }
+    }
+
+    @keyframes trexBounce {
+      0% {
+        transform: translateY(5px);
+      }
+      100% {
+        transform: translateY(-5px);
+      }
+    }
+
+    @keyframes groundMove {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    /* Media queries for responsive layout */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .trex-container, .image-container {
+        flex: none;
+        height: 50vh;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="trex-container">
+      <div class="ground"></div>
+      <div class="trex">
+        <div class="head">
+          <div class="eye"></div>
+          <div class="mouth"></div>
+          <div class="teeth"></div>
+        </div>
+        <div class="body"></div>
+        <div class="arm"></div>
+        <div class="leg left"></div>
+        <div class="leg right"></div>
+        <div class="tail"></div>
+      </div>
+    </div>
+    <div class="image-container">
+      <img src="https://images.steamusercontent.com/ugc/2028347991374124225/98A83E2B4AF08D4C49962AC2F57DF26515644E69/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Steam image">
+    </div>
+  </div>
+</body>
+</html>

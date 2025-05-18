@@ -1,0 +1,365 @@
+﻿<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">-->
+<html lang="en">
+<head>
+<script type="text/javascript">
+<!-- Google +1 -->
+window.___gcfg = {lang: 'es'};
+(function() { var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/plusone.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();
+
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bubbler+One|Frijole" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Pathway+Gothic+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+<style>
+#search-box {
+    position: relative;
+    width: 50%;
+    margin: 0;
+}
+#search-form {
+    height: 100px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#search-text {
+    font-size: 35px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 28px 150px 38px 20px;
+    color: #333;
+    outline: none;
+}
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 102px;
+    width: 140px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #4d90fe;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+</style>
+
+
+<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+<link rel="shortcut icon" href="https://soundfxcenter.com/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="en">
+<title> MP3</title>
+<meta name="description" content="" >
+<meta name="keywords" content="" >
+<META NAME="revisit-after" CONTENT="3 days">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+</head>
+<body  style="background-image: url('https://s3.amazonaws.com/soundfxcenter/fondo-soundfxcenter.png');">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div style="margin: 0 auto; width:990px; text-align:center; padding: 7px; 
+background-color: #000000; border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px;
+border: 2px solid #FFFF00; font-family: 'Bubbler One', sans-serif;">
+<a style="border:0px;" href="https://soundfxcenter.com"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/logo-sound-fx-center.png" alt="Sound Effects" title="Sound Effects"></a>
+
+<div style="margin: 0 auto; width:986px; text-align:center;">
+
+<a href="https://soundfxcenter.com/sounds/human/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-human-sounds-m.png" alt="Human Sounds" title="Human Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/animals/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-animals-sounds-m.png"  alt="Animals Sounds" title="Animals Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/home-and-office/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-home-and-office-sounds-m.png"  alt="Home and Office Sounds" title="Home and Office Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/nature/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-nature-sounds-m.png" alt="Nature Sounds" title="Nature Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/sports/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-sports-sounds-m.png"  alt="Sports Sounds" title="Sports Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/transport/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-transport-sounds-m.png"  alt="Transport Sounds" title="Transport Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/video-games/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-videogames-sounds-m.png"  alt="Video Games Sounds" title="Video Games Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/machines/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-machines-sounds-m.png" alt="Machines Sounds" title="Machine Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/holiday-and-festive/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-holiday-sounds-m.png" alt="Holiday and Festive Sounds" title="Holiday and Festive Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/television/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-tv-sounds-m.png" alt="Television Sounds" title="Television Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/movies/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-movies-sounds-m.png" alt="Movies Sounds" title="Movies Sounds"></a>
+
+<a href="https://soundfxcenter.com/sounds/music/"><img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/btn-music-sounds-m.png" alt="Music Sounds" title="Music Sounds"></a>
+</div>
+<div style="margin-top:5px;">
+<img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/bar-sounds-2.png" alt="Sounds" title="Sounds">
+</div>
+<!--     
+<script type="text/javascript">
+    google_ad_client = "ca-pub-3455068906212015";
+    google_ad_slot = "6074706541";
+    google_ad_width = 336;
+    google_ad_height = 280;
+</script>
+<!-- NewSFXC336x280 -->
+<!--<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+-->
+
+<h1 style="font-family: 'Acme', sans-serif; color:#FFFFFF; font-size:50px;"></h1>
+
+
+
+<div style="clear:left; margin-bottom:15px;"></div>
+
+<div style="float:left; width:336px; min-height:280; margin-left:150px; margin-bottom:20px; background-color:#1b425e; border-radius: 47px 47px 47px 47px;
+-moz-border-radius: 47px 47px 47px 47px;
+-webkit-border-radius: 47px 47px 47px 47px;
+border: 0px solid #000000; padding-top:10px;">
+<a href="https://soundfxcenter.com/sound_effect/search.php?sfx="><img border="0" src="https://s3.amazonaws.com/soundfxcenter/NN2.png" alt="" title=""></a><br>
+<h2 style="font-family: 'Acme', sans-serif; font-size:30px; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; margin:5px;"></h2>
+</div>
+
+
+
+<div style="float:left; width:316px; min-height:280; margin-left:50px; margin-bottom:20px; background-color:#1b425e; color:#FFFFFF; text-align:justify;padding:10px;">
+
+<div style="float:right;">
+<img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/info-sound.png" alt="Info Sound" title="Info Sound">
+</div>
+
+
+
+<h3></h3>
+
+ Sound Bites Free, Noise MP3 Download, Ringtone MP3<div style="margin:10px 10px 10px 50px;">
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="SoundFXCenter" data-url="https://soundfxcenter.com/download-sound/mac-os-sosumi-sound-effect/" data-lang="en">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script><br><br>
+
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsoundfxcenter.com%2Fdownload-sound%2Fmac-os-sosumi-sound-effect/&amp;layout=button_count&amp;show_faces=false&amp;width=110&amp;action=like&amp;colorscheme=dark&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:110px; height:35px;" allowTransparency="true"></iframe><br>
+
+<!-- Añade esta etiqueta donde quieras colocar el botón +1 -->
+<g:plusone href="https://soundfxcenter.com/download-sound/mac-os-sosumi-sound-effect/"></g:plusone>
+</div>
+
+<u><strong>Soundboard</strong>:</u> - 
+
+<br>
+
+</div>
+
+<div style="clear:left; width:100%;">
+</div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- newSFXC 970x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:970px;height:250px"
+     data-ad-client="ca-pub-3455068906212015"
+     data-ad-slot="7744352564"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div style="clear:left; width:100%; margin-bottom:10px;">
+</div>
+<audio controls>
+  <source src="" type="audio/mpeg">
+</audio>
+<br><div style="clear:left; width:100%; margin-bottom:10px;">
+</div>
+<script type="text/javascript">
+    google_ad_client = "ca-pub-3455068906212015";
+    google_ad_slot = "3470833749";
+    google_ad_width = 336;
+    google_ad_height = 280;
+</script>
+<!-- NewSFXC 336x280 azul solo texto -->
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+<div style="margin-left:240px; margin-top:20px; width:500px; border-radius: 49px 49px 49px 49px;
+-moz-border-radius: 49px 49px 49px 49px;
+-webkit-border-radius: 49px 49px 49px 49px;
+border: 0px solid #000000; background-color:#F3F781; font-size:30px;padding:20px;"><a title="" href="">
+<strong>Download  MP3</strong></a>
+<div style="font-size:16px; color:#6E6E6E;">
+<b>File Size: </b>
+</div>
+</div>
+
+<div style="margin-top:20px;">
+<img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/bar-sounds-2.png" alt="Sounds" title="Sounds">
+</div>
+
+
+<div style="font-family: 'Acme', sans-serif; color:#FFFFFF; font-size:30px; margin:10px;">
+People find this page searching for:
+</div>
+
+
+
+
+
+<div id='search-box' style="margin: 0 auto;  text-align:center; margin-top:25px;">
+  <form action='https://soundfxcenter.com/sound_effect/search.php' id='search-form' method='get' target='_top' autocomplete="on">
+    <input id='search-text' name='sfx' placeholder='Sound Effect...' type='text'/>
+    <button id='search-button' type='submit'><span>Search Sound</span></button>
+  </form>
+</div>
+
+
+<div style="clear:left; margin-top:5px;">
+<img src="https://s3.amazonaws.com/soundfxcenter/sound-effects/bar-sounds-2.png" alt="Sounds" title="Sounds">
+</div>
+
+
+
+
+
+
+
+
+<div style="clear:left; margin-top:30px; font-family: 'Frijole', cursive; font-size:35px; color:#F3F781;">
+Popular Tags
+</div>
+<div style="display:inline-block;margin-top:7px;  padding:14px; font-size:22px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://www.youtube.com/watch?v=DfnYzlKaYrI"><strong>Disney's Animal Kingdom</strong></a>
+</div>
+<div style="display:inline-block;margin-top:7px;  padding:14px; font-size:22px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/basketball/0"><strong>Basketball Sounds</strong></a>
+</div>
+
+<div style="display:inline-block;margin-top:7px;  padding:14px; font-size:16px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/car/0"><strong>Car Sound FX</strong></a>
+</div>
+
+<div style="display:inline-block;margin-top:7px;  padding:14px; font-size:16px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound_effect/search.php?sfx=Cat"><strong>Cat Sound Effects</strong></a>
+</div>
+
+<div style="display:inline-block; margin-top:7px; padding:14px; font-size:24px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/christmas/0"><strong>Christmas Sounds</strong></a>
+</div>
+
+<div style="display:inline-block;margin-top:7px;  padding:14px; font-size:26px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/halloween/0"><strong>Halloween Sound Effects</strong></a>
+</div>
+
+<div style="display:inline-block;margin-top:7px;  padding:14px; font-size:16px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/harry-potter/0"><strong>Harry Potter Audio</strong></a>
+</div>
+
+<div style="display:inline-block; margin-top:7px; padding:14px; font-size:22px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound_effect/search.php?sfx=Mario+Bros"><strong>Mario Bros Sounds</strong></a>
+</div>
+
+<div style="display:inline-block; margin-top:7px; padding:14px; font-size:20px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound_effect/search.php?sfx=Mortal+Kombat"><strong>Mortal Kombat Sound Effects</strong></a>
+</div>
+
+<div style="display:inline-block;margin-top:7px;  padding:14px; font-size:16px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/pacman/0"><strong>Pacman Sounds</strong></a>
+</div>
+
+<div style="display:inline-block; margin-top:7px; padding:14px; font-size:35px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound_effect/search.php?sfx=Sound+Effects"><strong>Sound Effects</strong></a>
+</div>
+
+
+
+
+
+<div style="display:inline-block; margin-top:7px; padding:14px; font-size:26px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/star-wars/0"><strong>Star Wars Sound Effects</strong></a>
+</div>
+
+<div style="display:inline-block; margin-top:7px; padding:14px; font-size:17px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound-effects/street-fighter/0"><strong>Street Fighter Sounds</strong></a>
+</div>
+
+<div style="color:#FFFFFF; display:inline-block; margin-top:7px; padding:14px; font-size:22px; background-color:#1ea8a8; border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border: 3px dashed #F3F781;">
+<a style="color:#FFFFFF;" href="https://soundfxcenter.com/sound_effect/search.php?sfx=Tyrannosaurus+Rex"><strong>T-Rex Sound</strong></a>
+</div>
+
+<div style="clear:left; margin-top:40px; width:100%; font-family: 'Open Sans Condensed', sans-serif; font-size:25px; text-align:center; color:#FFFFFF;">
+2025 - Sound FX Center
+</div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8722746-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</HTML>
