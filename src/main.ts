@@ -14,7 +14,19 @@ function setupMusicPlayer() {
   const musicButton = document.getElementById('toggle-music');
   const backgroundMusic = document.getElementById('background-music') as HTMLAudioElement;
 
+  console.log('Setting up music player:', { musicButton, backgroundMusic });
+
   if (musicButton && backgroundMusic) {
+    console.log('Audio sources:', {
+      src1: backgroundMusic.querySelector('source:nth-child(1)')?.getAttribute('src'),
+      src2: backgroundMusic.querySelector('source:nth-child(2)')?.getAttribute('src'),
+      src3: backgroundMusic.querySelector('source:nth-child(3)')?.getAttribute('src')
+    });
+
+    // Ensure volume is set to maximum
+    backgroundMusic.volume = 1.0;
+    console.log('Set audio volume to maximum');
+
     // Handle audio loading errors
     backgroundMusic.addEventListener('error', (e) => {
       console.error('Audio loading error:', e);
@@ -29,13 +41,22 @@ function setupMusicPlayer() {
     });
 
     musicButton.addEventListener('click', () => {
+      console.log('Music button clicked, audio state:', {
+        paused: backgroundMusic.paused,
+        muted: backgroundMusic.muted,
+        volume: backgroundMusic.volume,
+        src: backgroundMusic.currentSrc
+      });
+
       try {
         if (backgroundMusic.paused) {
           // Modern browsers require user interaction for audio
           const playPromise = backgroundMusic.play();
+          console.log('Attempting to play audio...');
 
           if (playPromise !== undefined) {
             playPromise.then(() => {
+              console.log('Audio playback started successfully');
               musicButton.textContent = "STOP MIDI MUSIC";
             }).catch(error => {
               console.error("Playback failed:", error);
@@ -46,6 +67,7 @@ function setupMusicPlayer() {
         } else {
           backgroundMusic.pause();
           backgroundMusic.currentTime = 0;
+          console.log('Audio playback stopped');
           musicButton.textContent = "PLAY MIDI MUSIC";
         }
       } catch (err) {
@@ -54,6 +76,8 @@ function setupMusicPlayer() {
         (musicButton as HTMLElement).style.backgroundColor = "#FF0000";
       }
     });
+  } else {
+    console.error('Music player elements not found');
   }
 }
 

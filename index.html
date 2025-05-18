@@ -167,11 +167,12 @@
 
   <!-- Background MIDI music toggle -->
   <div class="music-control">
-    <audio id="background-music" loop preload="auto">
-      <source src="/sounds/mac-beep.mp3" type="audio/mpeg">
-      <source src="/sounds/sosumi.mp3" type="audio/mpeg">
+    <audio id="background-music" loop preload="auto" volume="1.0">
+      <source src="./public/sounds/mac-beep.mp3" type="audio/mpeg">
+      <source src="./public/sounds/sosumi.mp3" type="audio/mpeg">
       <!-- External fallback -->
       <source src="https://vgmsite.com/soundtracks/mac-os-9/vtrrmjxnwi/Appearance%20Sound%20Set%20-%20Sosumi.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
     </audio>
     <button id="toggle-music" class="button3d">PLAY MIDI MUSIC</button>
   </div>
