@@ -5,9 +5,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-  background: url('https://web.archive.org/web/20091020152407/http://www.geocities.com/mikigirl2002/star4.gif');
+  background: url('../public/images/stars.gif');
   color: #000000;
-  cursor: url('https://web.archive.org/web/20091020065546/http://www.geocities.com/starbat2k/ani012.gif'), auto;
+  cursor: url('../public/images/cursor.gif'), auto;
   overflow-x: hidden;
 }
 
@@ -96,7 +96,7 @@ blink {
 
 .frame-content {
   padding: 20px;
-  background: url('https://web.archive.org/web/20090810050440/http://www.geocities.com/fiberoptics_5963/background.gif');
+  background: url('../public/images/bg.gif');
 }
 
 /* Header and Logo */
